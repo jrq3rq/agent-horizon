@@ -1,18 +1,20 @@
-# Environment
+# Environment & Virtual Environments
 .env
 .venv/
 venv/
 __pycache__/
 
-# Python
+# Python cache
 *.pyc
 *.pyo
 *.pyd
 .Python
+
+# Database
 *.db
 horizon.db
 
-# Media & Evidence (large files)
+# Large media & evidence files
 tracks/*/evidence/*
 journal/entries/*
 *.jpg
@@ -22,22 +24,22 @@ journal/entries/*
 *.mp4
 *.pdf
 
-# Build / Distribution
+# Build outputs
 dist/
 build/
 *.egg-info/
 *.whl
 
-# IDE & OS
+# IDE / Editor
 .vscode/
 .idea/
+*.swp
 .DS_Store
 Thumbs.db
 
 # Logs & Backups
-logs/**/*.log
+logs/
 backups/auto/
 
-# Temporary
+# Temporary files
 *.tmp
-*.swp
