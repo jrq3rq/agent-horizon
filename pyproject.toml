@@ -1,0 +1,23 @@
+[project]
+name = "agent-horizon"
+version = "0.1.0"
+description = "Living year-scale knowledge graph and adaptive calendar for AI agents"
+readme = "README.md"
+license = { text = "AGPL-3.0" }
+requires-python = ">=3.11"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain>=0.3.0",
+    "pydantic>=2.8",
+    "streamlit>=1.38",
+    "python-dotenv>=1.0",
+    "rich>=13.0",
+]
+
+[project.scripts]
+horizon = "src.main:main"   # future entry point
+
+[tool.ruff]
+line-length = 100

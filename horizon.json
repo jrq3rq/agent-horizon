@@ -1,0 +1,60 @@
+{
+  "name": "Agent Horizon",
+  "version": "0.1.0",
+  "current_week": 0,
+  "total_weeks": 36,
+  "status": "active",
+  "program": "Builder Program – Foundations of Self-Reliance",
+  "start_date": "2026-09-01",
+  "projected_end_date": "2027-05-15",
+
+  "metadata": {
+    "target_ages": "8-14",
+    "difficulty_tiers": ["Explorer", "Builder", "Pathfinder"],
+    "neurodivergent_friendly": true
+  },
+
+  "quarters": [
+    {
+      "id": "q1",
+      "name": "Water, Food & Daily Needs",
+      "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+      "id": "q2",
+      "name": "Home Systems & Maintenance",
+      "weeks": [10, 11, 12, 13, 14, 15, 16, 17, 18]
+    },
+    {
+      "id": "q3",
+      "name": "People, Communication & Leadership",
+      "weeks": [19, 20, 21, 22, 23, 24, 25, 26, 27]
+    },
+    {
+      "id": "q4",
+      "name": "Outdoor Self-Reliance & Advanced Skills",
+      "weeks": [28, 29, 30, 31, 32, 33, 34, 35, 36]
+    }
+  ],
+
+  "tracks": [
+    "water-systems", "food-production", "food-preservation", "sanitation",
+    "repair-maintenance", "tool-making-fabrication", "energy-fire-lighting",
+    "inventory-resource-management", "medic-basic", "herbalism",
+    "communication-signaling", "leadership-group-coordination",
+    "mental-resilience", "navigation-mapping", "foraging-wild-food",
+    "primitive-bushcraft", "animal-husbandry", "beekeeping",
+    "security-perimeter", "sewing-textiles", "economics-trade"
+  ],
+
+  "progress": {
+    "completed_weeks": [],
+    "mastery": {}
+  },
+
+  "settings": {
+    "auto_replan": true,
+    "require_evidence": true,
+    "safety_mode": "strict"
+  }
+}
