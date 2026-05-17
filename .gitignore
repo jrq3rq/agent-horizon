@@ -1,0 +1,43 @@
+# Environment
+.env
+.venv/
+venv/
+__pycache__/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.db
+horizon.db
+
+# Media & Evidence (large files)
+tracks/*/evidence/*
+journal/entries/*
+*.jpg
+*.png
+*.jpeg
+*.mov
+*.mp4
+*.pdf
+
+# Build / Distribution
+dist/
+build/
+*.egg-info/
+*.whl
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs & Backups
+logs/**/*.log
+backups/auto/
+
+# Temporary
+*.tmp
+*.swp
