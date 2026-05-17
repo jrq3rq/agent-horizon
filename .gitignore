@@ -43,3 +43,6 @@ backups/auto/
 
 # Temporary files
 *.tmp
+
+# Documentation (as requested)
+ABOUT.md
